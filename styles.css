@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+  background-color:#ffffff;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+  text-align: center;
+  font-size: 1vw;
+}
+h1,h2,h3{
+  font-family: 'Crimson Text', serif;
+}
+
+
+.hrdc-logo{
+  width : 20%;
+}
+
+.navbar-brand{
+  text-align: center;
+}
+
+.sticky-div {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Keep it above other content when scrolling */
+  width: 100%;
+  margin: 0 ;
+  background-color: #c11500;
+}
+
+/* Modify the text and icons color in the navbar to white for contrast */
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+
+.navbar-brand {
+  color: white;
+}
+
+.navbar-toggler-icon {
+  filter: invert(100%); /* Change the hamburger icon to white */
+}
+
+/* Add padding after the navbar to avoid content being hidden */
+.leadership-text{
+  font-size: 2vw;
+}
+
+.logo-text{
+  color : black ;
+  font-size: 1rem;
+}
+
+.navbar{
+  background-color:#c11500;
+  width: 100%;
+  margin: 0;
+}
+
+.nav-item{
+  Padding-left: 20px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  color: black;
+}
+
+.container-fluid{
+  z-index : 1 ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.container-1{
+  padding: 0 3% ;
+}
+.container-2{
+  padding-bottom: 4%;
+  width: 100%;
+  background-color:#eeeeeeeb;
+}
+
+.title-text{
+  padding: 2% ;
+  padding-left: 4%;
+}
+
+.landingpage{
+  margin-top: 40px;
+  padding-left: 5%;
+}
+
+.landingpage-text{
+  background-color: white;
+  line-height: 1.4;
+  padding: 1% 10% 1% 2%;
+  font-size: 2vw;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 15; 
+}
+
+.carousel-img{
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#NoticesAndPrograms{
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+  text-align: center;
+  background-color:#eeeeeeeb;
+  width: 100%;
+}
+
+.notice-window{
+  background-color: #EEF1FF;
+  width : 1500px ;
+  height: 500px;
+  margin: auto;
+}
+
+.row{
+  padding: 0px 100px;
+}
+
+.window{
+  background-color: #EEF1FF;
+  width : 800px;
+  height: 300px;
+  margin: 20px auto;
+  border-radius: 20px;
+
+  text-decoration: none;
+  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+  -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+  -webkit-transition: all .20s linear;
+  -moz-transition: all .20s linear;
+  transition: all .20s linear;
+  z-index: 0;
+}
+
+.window-link-box{
+  padding: 2%  2% ;
+  text-align: left;
+  height : 300px;
+}
+
+
+.window-links-text{
+  text-decoration: none ;
+  color: black ;
+}
+.window-links-text:hover{
+  color: #425F57;
+  font-weight: bold;
+}
+
+#Leadership{
+  text-align: center;
+  padding-top: 30px;
+  background-color:#eeeeeeeb;
+  width: 100%;
+} 
+.Leadership{
+  text-align: center;
+  padding-top: 30px;
+  background-color:#eeeeeeeb;
+  width: 100%;
+}
+.leadership-row{
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* padding-top: 30px; */
+
+  /* padding: 0 200px; */
+  margin-bottom: 5rem;
+ 
+}
+
+
+
+.leadership-img{
+  width: 100%; 
+  max-width: 67%; 
+  height: 82%; 
+  object-fit: cover;
+  border-radius: 10px;
+  background: #ffffff;
+  display: inline-block;
+  margin: 2rem 2rem 0;
+  padding: 1.5vh 1.5vh 2.5vh;
+  text-align: center;
+  text-decoration: none;
+  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+  -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+  -webkit-transition: all .20s linear;
+  -moz-transition: all .20s linear;
+  transition: all .20s linear;
+  transition: transform .5s ease;
+
+  z-index: 0;
+  position: relative;
+}
+
+
+
+.leadership-img:hover{
+  transform: scale(1.05);
+}
+
+.director{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.coordinator,.cocoord{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+}
+
+
+.potrait-text{
+  margin: 0;
+}
+
+.potrait-text-anchor{
+  text-decoration: none;
+  color : black;
+  font-weight: bold;
+}
+
+#footer{
+  margin : 0;
+  color: rgb(0, 0, 0);
+}
+
+.footer-div-row{
+  background-color:#eeeeeeeb;
+  height: 300px ;
+  width: 100% ;
+  padding: 0px 17%;
+}
+.address{
+  padding-top: 30px;
+}
+.navigation{
+  padding-top: 30px;
+}
+.footer-link{
+  color: rgb(0, 0, 0) ;
+  text-decoration: none ;
+  line-height: 2;
+}
+
+.footer-link:hover{
+  color : white ;
+}
+
+.cta {
+  font-weight: bold;
+  text-align: center;
+  color: #425F57;
+}
+@media (max-width: 1024px) {
+
+  .hrdc-logo {
+    width: 30%;
+  }
+
+  .navbar-brand {
+    font-size: 1rem;
+  }
+
+  .nav-link {
+    font-size: 0.9rem;
+    padding-left: 10px;
+  }
+
+  .landingpage {
+    padding-left: 2%;
+  }
+
+  .landingpage-text {
+    padding: 2% 2% 2% 2%;
+  }
+
+  .leadership-img {
+    max-width: 200px;
+    height: 300px;
+  }
+
+  .leadership-row {
+    margin-bottom: 2rem;
+  }
+
+  .footer-div-row {
+    padding: 0 5%;
+  }
+  .leadership-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .leadership-img {
+    max-width: 250px;
+    height: 350px;
+    margin: 2rem 0; 
+  }
+
+  .leadership-row {
+    margin-bottom: 2rem;
+  }
+}

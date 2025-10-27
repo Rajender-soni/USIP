@@ -1,0 +1,184 @@
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+  font-size: 1vw;
+
+}
+h1,h2,h3{
+  font-family: 'Crimson Text', serif;
+}
+
+p{
+  text-align: justify; /* Justifies the paragraph text */
+
+}
+
+.hrdc-logo{
+  width : 20%;
+}
+
+.navbar-brand{
+  text-align: center;
+}
+
+.logo-text{
+  color : black ;
+  font-size: 1rem;
+}
+
+.sticky-div {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Keep it above other content when scrolling */
+  width: 100%;
+  margin: 0 ;
+  background-color: #c11500;
+}
+
+/* Modify the text and icons color in the navbar to white for contrast */
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+
+.navbar-brand {
+  text-align: center;
+  color: white;
+}
+
+.navbar-toggler-icon {
+  filter: invert(100%); /* Change the hamburger icon to white */
+}
+
+/* Add padding after the navbar to avoid content being hidden */
+
+.carousel-control-prev,.carousel-control-next{
+  z-index: 2;
+}
+
+.nav-item{
+  Padding-left: 20px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  color: black;
+}
+
+.hrdc-logo{
+  width:20%;
+}
+
+.container-fluid{
+  z-index : 3 ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.container-1{
+  padding: 0 3% ;
+}
+.container-2{
+  background-color: #eeeeeeeb;
+  text-align: center;
+  padding: 2.5% 5% ;
+}
+.container-2 a{
+  color: inherit; /* Inherits the text color from the parent element */
+  text-decoration: none; /* Removes underline */
+  transition: color 0.3s ease;
+}
+.container-2 a:hover , a:focus{
+  color: #e91e63; /* Change to your desired hover color */
+  text-decoration: none; 
+}
+
+.title-text{
+  padding: 2% ;
+  padding-left: 4%;
+}
+
+.landingpage{
+  margin-top: 40px;
+  padding-left: 5%;
+}
+
+.landingpage-text{
+  /* background-color: #eeeeeeeb;; */
+  line-height: 1.4;
+  padding: 1% 10% 1% 2%;
+}
+
+.carousel-img{
+  background-color: white;
+  height: auto;
+  width: 95%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-height: 400px;
+}
+
+.container-3{
+  background-color: #eeeeeeeb;
+  text-align: center;
+  padding: 2.5% 5% ;
+}
+
+.intro-div{
+  padding-top: 2% ;
+  padding-bottom: 3%;
+}
+
+.introduction-text{
+  background-color: #eeeeeeeb;;
+  text-align: left;
+  padding-right: 1%;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.img{
+  border-radius: 10px;
+  box-shadow: 5px 8px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.intro-img{
+  width: 95%;
+  margin-right: 1%;
+}
+
+
+
+#footer{
+  margin : 0;
+}
+
+.footer-div-row{
+  background-color: #eeeeeeeb;
+  height: 300px ;
+  width: 100% ;
+  padding: 0px 17%;
+}
+.address{
+  padding-top: 30px;
+}
+.navigation{
+  padding-top: 30px;
+}
+.footer-link{
+  color: black ;
+  text-decoration: none ;
+  line-height: 2;
+}
+
+.footer-link:hover{
+  color : white ;
+}
+
+.cta {
+  font-weight: bold;
+  text-align: center;
+  color: #425F57;
+}
+@media (max-width: 768px) {
+  .introduction-text{
+    width: 100%;
+  }
+}
